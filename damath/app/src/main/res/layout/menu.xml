@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView 
+        android:id="@+id/boardImg"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/bg_wood"
+    	android:scaleType="fitXY" />
+    <RelativeLayout
+	        android:id="@+id/boardImg"
+	    android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+	        android:layout_width="200dp"
+	        android:layout_height="200dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:background="@drawable/board" />
+        
+        <TextView
+	        android:id="@+id/damathLbl"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:gravity="center"
+	        android:text="DAMATH"
+	        android:textSize="60dp"
+	        android:textColor="#FFAFAFAF" />
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boardImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Play"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/multiplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Multiplayer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/multiplayer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Highscore"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/highscore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Settings"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    	"
+</RelativeLayout>

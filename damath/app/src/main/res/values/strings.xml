@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Damath</string>
+	<string name="action_settings">Settings</string>
+	
+	
+	<string name="red_score_lbl">Red:</string>
+	<string name="blue_score_lbl">Blue:</string>
+	<string name="attacking_player_lbl">~Attacking Player~</string>
+	<string name="not_connected">No connection.</string>
+</resources>
